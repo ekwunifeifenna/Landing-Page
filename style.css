@@ -3,6 +3,7 @@ body{
     justify-content: center;
 }
 
+/* The header section */
 .header{
     flex: 1;
     display: flex;
@@ -32,3 +33,34 @@ a{
     text-decoration: none;
 
 }
+
+
+/* The description section  */
+.descriptionContainer{
+    background:#1F2937;
+    display: flex;
+    justify-content: space-around;
+    height: 350px;
+    align-items: center;
+}
+
+.descriptionImage{
+    width: 300px;
+    height: 150px;
+}
+
+.button{
+    background-color: rgb(25, 190, 190);
+    color: white;
+    margin: 0;
+    border: none;
+    text-align: center;
+    padding: 2px 8px;
+    border-radius: 8px;
+}
+
+.descriptionLeft{
+    color: white;
+}
+
+
